@@ -18,7 +18,7 @@ programs=(
 
 for prog in "${programs[@]}"; do
   if ! command -v "$prog" >/dev/null 2>&1; then
-    echo "$prog is not installed"
+    echo "$prog is NOT installed"
     missing=1
   fi
 done
