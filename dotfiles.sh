@@ -7,13 +7,18 @@ programs=(
 "zsh"
 "bat"
 "fzf"
+"starship"
+"atuin"
 "btop"
 "yazi"
+"zellij"
+"rg" # ripgrep
 "tmux"
 "fd"
-"hx"
+"hx" # helix editor
 "ugrep"
-"nvim"
+"zoxide"
+"zed" # gui zed editor
 )
 
 for prog in "${programs[@]}"; do
